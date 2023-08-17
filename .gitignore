@@ -396,3 +396,58 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+## React Native, TypeScript, Expo
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+/exponent
+/web-build
+/ios
+/android
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+# /metro.config.js
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+*.log.old
+npm-debug.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+.tsbuildinfo
+
+# Others
+.history/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
